@@ -1,0 +1,53 @@
+body{
+    /* background-color: rgba(210, 220, 214, 0.929); */
+    background-image: url(./image/images\ 2.jpg);
+    background-repeat: no-repeat;
+    background-position:  left;
+    background-attachment:fixed ;
+    background: url(./image/images\ 2.jpg) top left  no-repeat fixed, url(./image/butterfly.jpg) top right  no-repeat fixed, 
+                 url(./image/blue.jpg) right bottom no-repeat fixed, url(./image/tree.jpg) left bottom no-repeat fixed;;
+    
+}
+.container{
+    width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: rgba(150, 154, 152, 0.929);
+    margin-top: 50px;
+    color: rgb(23, 19, 19);
+    border: solid 10px hsl(120, 5%, 79%);
+    border-radius: 30px;
+    
+}
+.container h1{
+    text-align: center;
+   
+}
+
+.container label {
+    font-weight: bolder;
+    font-size: large;
+    
+}
+.form input[type="text"],
+.form input[type="date"],
+.form input[type="number"],
+.form input[type="tel"],
+.form input[type="email"],
+.form textarea,
+.form select,
+.form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid hsl(0, 22%, 14%);
+    border-radius: 3px;
+    margin-bottom: 10px;
+ }   
+.container button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #616961;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 3px;
+}

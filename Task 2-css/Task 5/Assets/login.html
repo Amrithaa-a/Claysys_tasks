@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login_form</title>
+    <!-- <link rel="stylesheet" href="./login.css"> -->
+    <style>
+        body{
+    background-color: rgba(210, 220, 214, 0.929);
+    background-image: url(./images/bg.jpg);
+    background-repeat: repeat;
+}
+.container{
+    width: 300px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: rgba(150, 154, 152, 0.929);
+    margin-top: 200px;
+    border: 5px solid rgb(107, 34, 224);
+    /* color: aliceblue; */
+    
+}
+.container h2{
+    text-align: center;
+   
+}
+
+.container label {
+    display: block;
+    margin-bottom: 5px;
+    
+}
+.container input[type="email"],
+.container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #373030;
+    border-radius: 3px;
+    margin-bottom: 10px;
+ }   
+.container button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #616961;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.container a
+{
+    display: block;
+    margin-bottom: 20px;
+    color: hsl(120, 17%, 90%);
+
+}
+
+.bottom{
+    text-align: center;
+    margin-top: 10px;
+}
+.bottom p,
+.bottom a{
+    display: inline;
+
+}
+    </style>
+</head>
+<body>
+    <form>
+        <div class="container">
+            <h2>Login Form</h2>
+
+            <label for="Email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter Your Email..." required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password here..." required>
+
+            <a href="#">Forgot Password?</a>
+            
+            <button type="submit" title="Click me for Login">Login</button>
+            
+            <div class="bottom">
+                <p>Not a member?</p>   <a href="#">Signup now</a>
+            </div>  
+        </div>
+    </form> 
+</body>
+</html>
