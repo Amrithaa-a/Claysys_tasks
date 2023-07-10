@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Login Form -->
+<form>
+    <input type="text" id="loginUsername" onfocusout="validateLoginUsername()" placeholder="Username">
+    <input type="password" id="loginPassword" onfocusout="validateLoginPassword()" placeholder="Password">
+    <button type="submit">Login</button>
+  </form>
+  
+  <!-- Registration Form -->
+  <form>
+    <input type="text" id="regUsername" onfocusout="validateRegUsername()" placeholder="Username">
+    <input type="password" id="regPassword" onfocusout="validateRegPassword()" placeholder="Password">
+    <!-- Add more fields as needed -->
+    <button type="submit">Register</button>
+  </form>
+  
+  <!-- Contact Us Form -->
+  <form>
+    <input type="text" id="contactName" onfocusout="validateContactName()" placeholder="Name">
+    <input type="email" id="contactEmail" onfocusout="validateContactEmail()" placeholder="Email">
+    <textarea id="contactMessage" onfocusout="validateContactMessage()" placeholder="Message"></textarea>
+    <button type="submit">Submit</button>
+  </form>
+  
+</body>
+<script>
+    // Login Form Validation
+function validateLoginUsername() {
+  var username = document.getElementById('loginUsername').value;
+  // Validation logic for the username field
+  // Example: Check if it's not empty, has minimum length, etc.
+}
+
+function validateLoginPassword() {
+  var password = document.getElementById('loginPassword').value;
+  // Validation logic for the password field
+  // Example: Check if it's not empty, has minimum length, etc.
+}
+
+// Registration Form Validation
+function validateRegUsername() {
+  var username = document.getElementById('regUsername').value;
+  // Validation logic for the username field
+  // Example: Check if it's not empty, has minimum length, etc.
+}
+
+function validateRegPassword() {
+  var password = document.getElementById('regPassword').value;
+  // Validation logic for the password field
+  // Example: Check if it's not empty, has minimum length, etc.
+}
+
+// Contact Us Form Validation
+function validateContactName() {
+  var name = document.getElementById('contactName').value;
+  // Validation logic for the name field
+  // Example: Check if it's not empty, has minimum length, etc.
+}
+
+function validateContactEmail() {
+  var email = document.getElementById('contactEmail').value;
+  // Validation logic for the email field
+  // Example: Check if it's a valid email format, etc.
+}
+
+function validateContactMessage() {
+  var message = document.getElementById('contactMessage').value;
+  // Validation logic for the message field
+  // Example: Check if it's not empty, has maximum length, etc.
+}
+
+</script>
+</html>
