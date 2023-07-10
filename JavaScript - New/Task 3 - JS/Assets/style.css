@@ -1,0 +1,439 @@
+
+  body {
+    background-image: url(./images/img1.jpg);
+    background-attachment: fixed;
+}
+  .nav {
+    /* overflow: hidden; */
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    border: 4px solid rgb(151, 144, 144);
+    border-top: none;
+    width: 100%;
+    top: 0;
+    left: 0;
+    /* z-index: 999; */
+    position: fixed;
+    
+    
+  }
+  
+  .nav a {
+    float: right;
+    color: #110f0f;
+    /* text-align: center; */
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 25px;
+    margin-top: 20px;
+  }
+  
+  .nav a:hover {
+    color: rgb(222, 219, 219);
+  }
+  
+  .logo img {
+    margin-top: -10px;
+    border-radius: 30px;
+  }
+  
+  .logo a {
+    float: left;
+    margin: 0;
+  }
+  
+  footer {
+    background-color: #f5f2f2;
+    padding: 8px;
+    text-align: center;
+    position:fixed; 
+    bottom:0px;
+    left: 0;
+    overflow: hidden;
+    position: sticky;
+    margin-top: 0px;
+  
+  }
+  .icon a{
+      display: inline-block;
+      margin: 0 10px;
+      color: #110f0f;
+  }
+  .address{
+      margin-top: 8px;
+  }
+  .copy{
+      margin-top: 8px;
+  }
+  @media screen and (max-width: 768px) {
+    footer {
+        position: static; /* Added: Change position to static on small screens */
+    }
+    .icon a{
+      font-size: small;
+    }
+    .address{
+      font-size: smaller;
+  }
+  .copy{
+      font-size: smaller;
+  }
+}
+  
+  
+  .slideimage{
+      display: flex;
+      animation: slide 10s infinite;
+      
+     
+  }
+  @keyframes slide {
+        0% {
+          transform: translateX(0);
+        }
+        20% {
+          transform: translateX(0);
+        }
+        25% {
+          transform: translateX(-100%);
+        }
+        45% {
+          transform: translateX(-100%);
+        }
+        50% {
+          transform: translateX(-200%);
+        }
+        70% {
+          transform: translateX(-200%);
+        }
+        75% {
+          transform: translateX(-300%);
+        }
+        85% {
+          transform: translateX(-300%);
+        }
+        90% {
+          transform: translateX(-400%);
+        }
+        100% {
+          transform: translateX(-400%);
+        }
+      }
+  img{
+      width: 100%;
+  }
+  .slider {
+       /* background-color:rgb(52, 48, 48); */
+       width:600px;
+       height:400px;
+       margin:150px auto;
+       overflow:hidden;
+       border: 5px solid hwb(120 95% 4%);
+       
+     }
+
+  
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    .nav a {
+      padding: 10px 10px;
+      font-size: 15px;
+      /* float: left; */
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .nav a:not(:first-child) {
+      display: left;
+      padding: 0px 10px;
+    }  
+    
+  }
+  @media screen and (max-width: 1024px) {
+    .nav a {
+      padding: 10px 10px;
+      font-size: 15px;
+      /* float: left; */
+    }
+  
+    .slider {
+      width: 100%;
+      max-width: 600px;
+      height: auto;
+      margin: 150px auto;
+    }
+  }
+
+/* about page css */
+#aboutus{
+  margin-top: 120px;
+  text-align: center;
+  font-size: 45px;
+}
+.ourmission {
+  border: 5px solid rgb(223, 221, 221);
+  border-radius: 30px;
+  margin: 30px auto;
+  max-width: 900px;
+}
+
+.ourmission h1{
+  text-align: center;
+}
+.ourmission p{
+  margin-top: -10px;
+  font-style: italic;
+  text-align: center;
+}
+
+.image {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.image img {
+  border-radius: 40%;
+  max-width: 100%;
+  height: auto;
+}
+
+.knowus {
+  border: 4px solid;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 30px auto;
+  max-width: 600px; 
+}
+
+.knowus h1 {
+  text-align: center;
+}
+
+.knowus p {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.knowus button {
+  display: block;
+  margin: 0 auto;
+  background-color: aliceblue;
+}
+
+
+/* Contact us page style */
+
+.first {
+  width: 100%;
+  height: 300px;
+  text-align: center;
+  /* top: 40px; */
+  border-right: 5px dotted #f5f4f4;
+  border-left: 5px dotted rgb(249, 246, 246);
+  border-radius: 30px;
+}
+
+.first h1 {
+  padding-top: 90px;
+}
+
+.first p {
+  font-style: italic;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 900;
+  margin-top: -10.5px;
+}
+
+.contact {
+  width: 400px;
+  
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 4px dotted rgb(187, 209, 211);
+  border-top-width: 0px;
+  /* border-radius: 50px; */
+  margin-top: -150px;
+  border-top: none;
+}
+
+.contact h1 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.contact label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.contact input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(187, 209, 211);
+  color: #160f0f;
+  cursor: pointer;
+  border-radius: 3px;
+  margin-top: 10px;
+}
+
+.contact input[type="email"],
+.contact input[type="text"],
+.contact textarea {
+  width: 90%;
+  padding: 10px;
+  display: block;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  
+}
+
+/* Responsive styles */
+@media screen and (max-width: 320px) {
+  .contact {
+      width: 90%;
+      margin-top: -100px;
+  }
+
+  .contact input[type="submit"] {
+      margin-top: 20px;
+  }
+  .contact{
+     border: solid papayawhip;
+     border-top: none;
+     border-radius: 0%;
+     
+  }  
+}
+
+/* sign in css */
+
+.signin{
+  width: 300px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #fafbfbed;
+  margin-top: 150px;
+  border: 5px solid rgb(213, 213, 213);
+  /* color: aliceblue; */
+  
+}
+.signin h2{
+  text-align: center;
+ 
+}
+
+.signin label {
+  display: block;
+  margin-bottom: 5px;
+  
+}
+.signin input[type="email"],
+.signin input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #373030;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}   
+.signin button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #616961;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.signin a
+{
+  display: block;
+  margin-bottom: 20px;
+  color: hsl(0, 0%, 9%);
+  text-decoration: none;
+  font-style: italic;
+
+}
+
+.bottom{
+  text-align: center;
+  margin-top: 10px;
+}
+.bottom p,
+.bottom a{
+  display: inline;
+  /* text-decoration: none; */
+
+}
+#footer{
+  margin-top: 96px;
+}
+@media screen and (max-width: 320px) {
+  #footer {
+      position: static; /* Added: Change position to static on small screens */
+      width: 350px;
+      margin-top: 120px;
+  }
+  
+}
+
+/* sign up css */
+.form{
+  width: 500px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #fdfffe;
+  margin-top: 110px;
+  color: rgb(23, 19, 19);
+  border: solid 10px hsl(120, 5%, 79%);
+  border-radius: 30px;
+  
+}
+.form h1{
+  text-align: center;
+ 
+}
+
+.form label {
+  font-weight: bolder;
+  font-size:medium;
+  margin-bottom: 5px;
+  display: inline-block;
+  
+}
+.form input[type="text"],
+.form input[type="date"],
+.form input[type="number"],
+.form input[type="tel"],
+.form input[type="email"],
+.form textarea,
+.form input[type="password"] {
+  width: 100%;
+  padding: 7px;
+  border: 1px solid hsl(0, 22%, 14%);
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+.form select
+{
+  width: 520px;
+  padding: 7px;
+  border: 1px solid hsl(0, 22%, 14%);
+  border-radius: 3px;
+  margin-bottom: 10px;
+}   
+.form button[type="submit"] {
+  width: 520px;
+  padding: 10px;
+  background-color: #616961;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+  #footerbottom {
+      position: static; /* Added: Change position to static on small screens */
+      /* width: 350px; */
+      /* margin-top: 120px; */
+  }
+  
+

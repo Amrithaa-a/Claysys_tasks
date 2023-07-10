@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login_form</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+    <nav class="nav">
+        <div class="logo">
+            <a href="./about.html" ><img src="./images/logo.png" height="100px" ></a>
+        </div>    
+        <a href="./contact.html">Contact us</a>
+        <a href="./sign_up.html">Sign up</a>
+        <a href="./sign_in.html">Sign in</a>
+        <a href="./about.html">About us</a>
+    </nav>
+    <form>
+        <div class="container">
+            <div class="signin">
+                <h2>Sign in </h2>
+
+                <label for="Email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter Your Email..." onfocusout="checkEmail()" required>
+                <small></small>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password here..." onfocusout="checkPassword() " required>
+                <small></small>
+                <a href="#">Forgot Password?</a>
+            
+                <button type="submit" title="Click me for Login">Sign in</button>
+            
+            <div class="bottom">
+                <p>Not a member?</p>            <a href="./sign_up.html">Sign up now</a>
+            </div>  
+            </div>
+        </div>
+    </form> 
+    <footer id="footer">
+            
+        <div class="icon">
+          <a href="./contact.html" target="_blank"><i style="font-size:36px" class="fa">&#xf09a;</i></a>
+          <a href="./contact.html" target="_blank"><i class="fa fa-instagram" style="font-size:36px"></i></a>
+          <a href="./contact_us.html" target="_blank"><i class="fa fa-linkedin" style="font-size:36px"></i></a>
+        </div>
+        <div class="address">
+            42 Enigma Lane
+            Mysteryville, Riddleland
+            Secret Country, 12345
+        </div>
+        <div class="copy">
+            Copyright &copy; 2023 Demo Website | All rights reserved.
+         </div>
+      </footer>
+
+<script src="./script.js"></script>
+</body>
+<script>
+    
+
+    </script>
+</html>
