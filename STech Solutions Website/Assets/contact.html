@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <link rel="icon" type="image/x-icon" href="./images/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav class="nav">
+        <div class="logo">
+            <a href="./about.html" ><img src="./images/logo.png" height="80px" ><h4>STech Solutions</h4></a>
+        </div>    
+        <a href="./contact.html">Contact us</a>
+        <a href="./sign_up.html">Sign up</a>
+        <a href="./sign_in.html">Sign in</a>
+        <a href="./about.html">About us</a>
+    </nav>
+
+    <div class="container">
+        <div class="first">
+            <h1>We’d love to hear from you</h1>
+            <p>If you want to know more about our products, features, pricing or anything at all, we are here to answer your questions.</p> 
+        </div>
+
+        <div class="contact">
+            <h1>Contact us</h1>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" onfocusout="checkName()" required>
+                <small ></small>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" onfocusout="checkEmail()"  required>
+                <small></small>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required onfocusout="checkMessage()" ></textarea>
+                <small></small>
+                
+                <input type="submit" value="Submit" >
+            </form>
+        </div> 
+    </div>
+    <footer>
+            
+        <div class="icon">
+          <a href="./contact.html" target="_blank"><i style="font-size:36px" class="fa">&#xf09a;</i></a>
+          <a href="./contact.html" target="_blank"><i class="fa fa-instagram" style="font-size:36px"></i></a>
+          <a href="./contact_us.html" target="_blank"><i class="fa fa-linkedin" style="font-size:36px"></i></a>
+        </div>
+        <div class="address">
+            42 Enigma Lane
+            Mysteryville, Riddleland
+            Secret Country, 12345
+        </div>
+        <div class="copy">
+            Copyright &copy; 2023 Demo Website | All rights reserved.
+         </div>
+      </footer>
+</body>
+<script src="./script.js">  </script>  
+</html>
