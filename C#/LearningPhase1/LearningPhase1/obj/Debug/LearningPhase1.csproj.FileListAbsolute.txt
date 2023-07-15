@@ -1,0 +1,8 @@
+D:\Claysys\Daily Task\C#\LearningPhase1\LearningPhase1\bin\Debug\LearningPhase1.exe.config
+D:\Claysys\Daily Task\C#\LearningPhase1\LearningPhase1\bin\Debug\LearningPhase1.exe
+D:\Claysys\Daily Task\C#\LearningPhase1\LearningPhase1\bin\Debug\LearningPhase1.pdb
+D:\Claysys\Daily Task\C#\LearningPhase1\LearningPhase1\obj\Debug\LearningPhase1.csproj.AssemblyReference.cache
+D:\Claysys\Daily Task\C#\LearningPhase1\LearningPhase1\obj\Debug\LearningPhase1.csproj.SuggestedBindingRedirects.cache
+D:\Claysys\Daily Task\C#\LearningPhase1\LearningPhase1\obj\Debug\LearningPhase1.csproj.CoreCompileInputs.cache
+D:\Claysys\Daily Task\C#\LearningPhase1\LearningPhase1\obj\Debug\LearningPhase1.exe
+D:\Claysys\Daily Task\C#\LearningPhase1\LearningPhase1\obj\Debug\LearningPhase1.pdb

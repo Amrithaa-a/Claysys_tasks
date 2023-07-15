@@ -1,0 +1,5 @@
+﻿CREATE TABLE [LOGIN]
+(
+	[Username] VARCHAR(50) NULL PRIMARY KEY, 
+    [Password] VARCHAR(50) NULL
+)

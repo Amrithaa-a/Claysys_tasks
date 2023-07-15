@@ -1,0 +1,36 @@
+String Username, Password;
+            Username = textBox1.Text;
+            Password = textBox2.Text;
+
+            try
+            {
+                String query = "SELECT * FROM LOGIN WHERE Username = '" + textBox1.Text + "' AND Password = '" + textBox2.Text + "' "
+                SqlDataAdapter sda = new SqlDataAdapter(query,con);
+                DataTable dt = new DataTable();
+                sda.Fill(dt);
+                if (dt.Rows.Count>0)
+                {
+                    Username = textBox1.Text;
+                    Password = textBox2.Text;
+
+                    Main btn2 = new Main();
+                    btn2.Show();
+                    this.Hide();
+                    
+                }
+                else
+                {
+                    MessageBox.Show("Please check your Username and Password","error",MessageBoxButtons.OK,MessageBoxIcon.Error);
+                    textBox1.Clear();
+                    textBox2.Clear();
+                    textBox1.Focus();
+                }
+            }
+            catch
+            {
+                MessageBox.Show("error");
+            }
+            finally
+            {
+                con.Close();
+            }

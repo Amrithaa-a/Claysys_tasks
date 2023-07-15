@@ -1,0 +1,12 @@
+D:\Claysys\Daily Task\C#\loginForm\loginForm\obj\Debug\loginForm.csproj.AssemblyReference.cache
+D:\Claysys\Daily Task\C#\loginForm\loginForm\obj\Debug\loginForm.csproj.SuggestedBindingRedirects.cache
+D:\Claysys\Daily Task\C#\loginForm\loginForm\obj\Debug\loginForm.Form1.resources
+D:\Claysys\Daily Task\C#\loginForm\loginForm\obj\Debug\loginForm.Main.resources
+D:\Claysys\Daily Task\C#\loginForm\loginForm\obj\Debug\loginForm.Properties.Resources.resources
+D:\Claysys\Daily Task\C#\loginForm\loginForm\obj\Debug\loginForm.csproj.GenerateResource.cache
+D:\Claysys\Daily Task\C#\loginForm\loginForm\obj\Debug\loginForm.csproj.CoreCompileInputs.cache
+D:\Claysys\Daily Task\C#\loginForm\loginForm\bin\Debug\loginForm.exe.config
+D:\Claysys\Daily Task\C#\loginForm\loginForm\bin\Debug\loginForm.exe
+D:\Claysys\Daily Task\C#\loginForm\loginForm\bin\Debug\loginForm.pdb
+D:\Claysys\Daily Task\C#\loginForm\loginForm\obj\Debug\loginForm.exe
+D:\Claysys\Daily Task\C#\loginForm\loginForm\obj\Debug\loginForm.pdb
